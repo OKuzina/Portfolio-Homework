@@ -1,41 +1,65 @@
-.info {
-  background: rgb(251, 207, 215);
+body {
+  background: rgb(250, 246, 227);
   margin: 0 0 0 0;
 }
 
 .avatar {
-  padding: 10px 10px 10px 10px;
+  padding: 15px 10px 10px 10px;
   width: 400px;
-  border-radius: 200px;
+  border-radius: 270px;
   margin: 20px 0 0 70px;
+}
+
+.image-projects {
+  padding: 15px 10px 10px 10px;
+  width: 400px;
+  margin: 20px 0 0 30px;
+  border-radius: 25px;
+  border: 1px solid rgb(98, 98, 98);
 }
 
 .name {
   font-size: 30px;
-
   font-family: "Comfortaa", cursive;
 }
 
-.about-section {
+.content {
   padding: 130px 0 0 90px;
+  font-family: "Comfortaa", cursive;
 }
-.navbar-heading {
-  margin: 0 0 0 145px;
-}
-
 .btn-branding {
-  background-color: rgba(244, 240, 240, 0.798);
-  color: rgb(1, 1, 1);
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 4px;
+  background-color: rgba(122, 159, 74, 0.798);
+  color: rgb(253, 253, 253);
+  border: 1px solid rgb(98, 98, 98);
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
 }
 
 @media (max-width: 520px) {
   .about-section {
-    padding: 150px 0 0 90px;
+    padding: 10px 0 0 90px;
+  }
+  .name {
+    padding: 70px 0 0 0;
   }
 
-  .avatar {
+  .avatar .image-projects {
     margin: 10px 0 0 0;
   }
+}
+h1 {
+  color: black;
+}
+
+h4 {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
 }
