@@ -60,10 +60,21 @@ h4 {
   font-weight: bold;
 }
 
-p {
+p detail-info {
   text-align: center;
 }
 
 .h1-contact {
   text-align: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Comfortaa", cursive;
+}
+nav a:hover {
+  color: rgba(122, 159, 74, 0.798);
 }
