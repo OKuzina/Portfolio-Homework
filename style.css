@@ -11,11 +11,12 @@ body {
 }
 
 .image-projects {
-  padding: 15px 10px 10px 10px;
+  padding: 30px 30px 30px 30px;
   width: 400px;
   margin: 20px 0 0 30px;
-  border-radius: 25px;
-  border: 1px solid rgb(98, 98, 98);
+  border-radius: 5px;
+  border: 1px solid rgb(39, 13, 76);
+  background-color: rgb(255, 255, 255);
 }
 
 .name {
@@ -77,4 +78,32 @@ nav a {
 }
 nav a:hover {
   color: rgba(122, 159, 74, 0.798);
+}
+
+footer {
+  margin: 20px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  text-align: center;
+}
+footer .email-link:hover {
+  color: rgba(122, 159, 74, 0.798);
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: rgb(39, 13, 76);
+  background-color: white;
+  padding: 8px 13px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(234, 130, 211, 0.798);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: rgba(234, 130, 211, 0.798);
 }
