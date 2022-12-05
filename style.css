@@ -79,6 +79,10 @@ nav a:hover {
 .detail-info {
   text-align: center;
 }
+.open-source {
+  text-align: center;
+  margin: 20px;
+}
 
 footer {
   margin: 20px 0;
