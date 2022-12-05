@@ -61,10 +61,6 @@ h4 {
   font-weight: bold;
 }
 
-p detail-info {
-  text-align: center;
-}
-
 .h1-contact {
   text-align: center;
 }
@@ -78,6 +74,10 @@ nav a {
 }
 nav a:hover {
   color: rgba(122, 159, 74, 0.798);
+}
+
+.detail-info {
+  text-align: center;
 }
 
 footer {
